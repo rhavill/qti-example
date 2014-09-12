@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+	xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:csm="http://www.imsglobal.org/xsd/imsccv1p2/imscsmd_v1p0"
+	xmlns:imsqti="http://www.imsglobal.org/xsd/imsqti_metadata_v2p1"
+	identifier="Simple Item Bank"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsmd_v1p2 imsmd_v1p2p4.xsd http://www.imsglobal.org/xsd/imsqti_metadata_v2p1  http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_metadata_v2p1.xsd">
+<metadata>
+    <schema>IMS Content</schema>
+    <schemaversion>1.1</schemaversion>
+    <imsmd:lom>
+        <imsmd:general>
+            <imsmd:title>
+                <imsmd:langstring xml:lang="en">Simple Item Bank</imsmd:langstring>
+            </imsmd:title>
+            <imsmd:language>en</imsmd:language>
+        </imsmd:general>
+        <imsmd:lifecycle>
+                <imsmd:version>
+                        <imsmd:langstring xml:lang="en">2.1</imsmd:langstring>
+                </imsmd:version>
+                <imsmd:status>
+                    <imsmd:source>
+                        <imsmd:langstring xml:lang="en">LOMv1.0</imsmd:langstring>
+                    </imsmd:source>
+                    <imsmd:value>
+                        <imsmd:langstring xml:lang="x-none">Final</imsmd:langstring>
+                    </imsmd:value>
+            </imsmd:status>
+        </imsmd:lifecycle>
+        <imsmd:metametadata>
+            <imsmd:metadatascheme>LOMv1.0</imsmd:metadatascheme>
+            <imsmd:metadatascheme>QTIv2.1</imsmd:metadatascheme>
+            <imsmd:language>en</imsmd:language>
+        </imsmd:metametadata>
+        <imsmd:rights>
+            <imsmd:description>
+                <imsmd:langstring xml:lang="en">
+                    ACME (c) 2014
+                </imsmd:langstring>
+            </imsmd:description>
+        </imsmd:rights>
+    </imsmd:lom>
+</metadata>
+<organizations/>
+<resources>
+    <resource identifier="Simple Item Bank" type="imsqti_test_xmlv2p1" href="assessment.xml">
+        <metadata>
+            <imsmd:lom>
+                <imsmd:classification>
+                    <imsmd:taxonPath>
+                        <imsmd:source>
+                        <imsmd:string>qmd_assessmenttype</imsmd:string>
+                    </imsmd:source>
+                        <imsmd:taxon>
+                            <imsmd:entry>
+                                <imsmd:string>Examination</imsmd:string>
+                            </imsmd:entry>
+                        </imsmd:taxon>
+                    </imsmd:taxonPath>
+                </imsmd:classification>
+                <imsqti:qtiMetadata>
+                    <imsqti:solutionAvailable>true</imsqti:solutionAvailable>
+                </imsqti:qtiMetadata>
+            </imsmd:lom>
+            <csm:curriculumStandardsMetadataSet>
+                <csm:curriculumStandardsMetadata>
+                    <csm:setOfGUIDs>
+                        <csm:labelledGUID>
+                            <csm:label></csm:label>
+                            <csm:GUID></csm:GUID>
+                        </csm:labelledGUID>
+                        <csm:labelledGUID>
+                            <csm:label></csm:label>
+                            <csm:GUID></csm:GUID>
+                        </csm:labelledGUID>
+                    </csm:setOfGUIDs>
+                </csm:curriculumStandardsMetadata>
+            </csm:curriculumStandardsMetadataSet>
+        </metadata>
+        <file href="assessment.xml"/>        
+        <dependency identifierref="orkney1"/>
+        <dependency identifierref="orkney2"/>
+    </resource>
+    <resource identifier="passage" type="webcontent" href="passages/461.html">
+        <metadata xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2">
+            <schema>IMS QTI</schema>
+            <schemaversion>2.0</schemaversion>
+            <imsmd:lom>
+                <imsmd:classification>
+                    <imsmd:purpose>
+                        <imsmd:source>
+                            <imsmd:langstring>LOMv1.0</imsmd:langstring>
+                        </imsmd:source>
+                        <imsmd:value>
+                            <imsmd:langstring>discipline</imsmd:langstring>
+                        </imsmd:value>
+                    </imsmd:purpose>
+                </imsmd:classification>
+            </imsmd:lom>
+        </metadata>
+        <file href="shared/orkney.html" />
+    </resource>
+    <resource identifier="orkney1" type="imsqti_item_xmlv2p1" href="orkney1.xml">
+        <metadata>
+            <imsqti:qtiMetadata>
+                <imsqti:timeDependent>false</imsqti:timeDependent>
+                <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                <imsqti:feedbackType>none</imsqti:feedbackType>
+                <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            </imsqti:qtiMetadata>
+            <imsmd:lom>
+                <imsmd:general>
+                    <imsmd:identifier>orkney1</imsmd:identifier>
+                    <imsmd:title>
+                        <imsmd:langstring xml:lang="en"></imsmd:langstring>
+                    </imsmd:title>
+                    <imsmd:description>
+                        <imsmd:langstring xml:lang="en"></imsmd:langstring>
+                    </imsmd:description>
+                </imsmd:general>
+                <imsmd:lifecycle>
+                    <imsmd:version>
+                        <imsmd:langstring xml:lang="en">2.1</imsmd:langstring>
+                    </imsmd:version>
+                    <imsmd:status>
+                        <imsmd:source>
+                            <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                        </imsmd:source>
+                        <imsmd:value>
+                            <imsmd:langstring xml:lang="x-none">Final</imsmd:langstring>
+                        </imsmd:value>
+                    </imsmd:status>
+                </imsmd:lifecycle>
+                <imsmd:rights>
+                    <imsmd:description>
+                        <imsmd:langstring xml:lang="en">ACME 2014</imsmd:langstring>
+                    </imsmd:description>
+                </imsmd:rights>
+            </imsmd:lom>
+        </metadata>
+        <file href="orkney1.xml" />
+        <dependency identifierref="passage"/>
+    </resource>
+    <resource identifier="orkney2" type="imsqti_item_xmlv2p1" href="orkney2.xml">
+        <metadata>
+            <imsqti:qtiMetadata>
+                <imsqti:timeDependent>false</imsqti:timeDependent>
+                <imsqti:interactionType>choiceInteraction</imsqti:interactionType>
+                <imsqti:feedbackType>none</imsqti:feedbackType>
+                <imsqti:solutionAvailable>false</imsqti:solutionAvailable>
+            </imsqti:qtiMetadata>
+            <imsmd:lom>
+                <imsmd:general>
+                    <imsmd:identifier>orkney1</imsmd:identifier>
+                    <imsmd:title>
+                        <imsmd:langstring xml:lang="en"></imsmd:langstring>
+                    </imsmd:title>
+                    <imsmd:description>
+                        <imsmd:langstring xml:lang="en"></imsmd:langstring>
+                    </imsmd:description>
+                </imsmd:general>
+                <imsmd:lifecycle>
+                    <imsmd:version>
+                        <imsmd:langstring xml:lang="en">2.1</imsmd:langstring>
+                    </imsmd:version>
+                    <imsmd:status>
+                        <imsmd:source>
+                            <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                        </imsmd:source>
+                        <imsmd:value>
+                            <imsmd:langstring xml:lang="x-none">Final</imsmd:langstring>
+                        </imsmd:value>
+                    </imsmd:status>
+                </imsmd:lifecycle>
+                <imsmd:rights>
+                    <imsmd:description>
+                        <imsmd:langstring xml:lang="en">ACME 2014</imsmd:langstring>
+                    </imsmd:description>
+                </imsmd:rights>
+            </imsmd:lom>
+        </metadata>
+        <file href="orkney2.xml" />
+        <dependency identifierref="passage"/>
+    </resource>
+</resources>
+</manifest>
