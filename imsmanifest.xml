@@ -141,6 +141,8 @@
             </imsmd:lom>
         </metadata>
         <file href="orkney1.xml" />
+        <file href="shared/orkney.css" />
+        <file href="shared/orkney.html" />
         <dependency identifierref="passage"/>
     </resource>
     <resource identifier="orkney2" type="imsqti_item_xmlv2p1" href="orkney2.xml">
@@ -182,6 +184,8 @@
             </imsmd:lom>
         </metadata>
         <file href="orkney2.xml" />
+        <file href="shared/orkney.css" />
+        <file href="shared/orkney.html" />
         <dependency identifierref="passage"/>
     </resource>
 </resources>
